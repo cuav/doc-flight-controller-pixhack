@@ -1,5 +1,7 @@
 # Summary
 
 * [autopoilot](README.md)
-* [First Chapter](chapter1.md)
+* [pixhack v3](chapter1.md)
+
+
 
