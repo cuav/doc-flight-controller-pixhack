@@ -1,3 +1,16 @@
-# My Awesome Book
+# CUAV PixHack 自驾仪 官方说明文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+---
+
+目前 CUAV PixHack 飞控分为 2 个主版本：
+
+* **PixHack V2/V3        全新全能型飞控**
+
+* **PixHack NANO        针对小型无人机开发的飞控**
+
+![](http://doc.cuav.net/PixHack/assets/pixhackv31.png)
+
+
+
+
+
