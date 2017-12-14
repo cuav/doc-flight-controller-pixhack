@@ -75,7 +75,7 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 
 ---
 
-![](http://doc.cuav.net/PixHack/assets/pixhack%20port.png)
+![](http://doc.cuav.net/PixHack/assets/pixhack port.png)
 
 1. 主要状态灯
 2. 底层状态灯
