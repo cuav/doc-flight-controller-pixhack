@@ -44,7 +44,7 @@ Pixhack V2是一款的无人机控制系统，由CUAV全新打造，可运行 PX
 | 加速器Accelerometer 3 | LS303D\MPU6000 |
 | 陀螺仪Gyro 3 | L3GD20\MPU6000 |
 | 电子罗盘Compass 2 | LS303D |
-| 气压计Barometer 2 | MS5611  |
+| 气压计Barometer 2 | MS5611 |
 | **接口** |  |
 | Mavlink UART串口 | 2（带硬件流控） |
 | GPS UART串口 | 2 |
@@ -62,7 +62,7 @@ Pixhack V2是一款的无人机控制系统，由CUAV全新打造，可运行 PX
 | PM工作电压 | 4.5 ~ 5.5 V |
 | USB电压 | 5.0 V +- 0.25v |
 | Servo电压 | 4.8~5.4V |
-| 工作温度 | -20 ~ 60°c |
+| 工作温度 | -10 ~ 60°c |
 | **尺寸** |  |
 | 长X宽X高 | 68\*44\*17 |
 | 重量 | 63g |
