@@ -2,7 +2,7 @@
 
 ---
 
-![](http://doc.cuav.net/PixHack/assets/pixhackv31.png)
+![](/assets/pixhackv31.png)
 
 #### 覆盖全机型 {#覆盖全机型}
 
@@ -30,7 +30,7 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 
 传感器与主板分离设计，内置高性能减震系统,各种严峻机型环境，适应性更强
 
-![](http://doc.cuav.net/PixHack/assets/imu1.png)
+![](/assets/imu1.png)
 
 #### 内置 IMU 温度自动补偿系统 {#内置-imu-温度自动补偿系统}
 
@@ -75,7 +75,7 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 
 ---
 
-![](http://doc.cuav.net/PixHack/assets/pixhack port.png)
+![](/assets/pixhack port.png)
 
 1. 主要状态灯
 2. 底层状态灯
@@ -95,7 +95,7 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 
     ---
 
-    ![](http://doc.cuav.net/PixHack/assets/V33_legend.png)
+    ![](/assets/V33_legend.png)
 
 
 
