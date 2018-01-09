@@ -86,8 +86,5 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 9：TF内存卡
 
 ### 接口定义： {#接口定义：}
-
----
-
-![](http://doc.cuav.net/PixHack/assets/nano3.png)
+![](/assets/nano3.png)
 
