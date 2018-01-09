@@ -8,7 +8,7 @@
 
 * **PixHack NANO        针对小型无人机开发的飞控**
 
-![](http://doc.cuav.net/PixHack/assets/pixhackv31.png)
+![](/assets/pixhackv31.png)
 
 
 
