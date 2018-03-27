@@ -1,32 +1,30 @@
-## Pixahack LED状态灯含义（RGB三色状态灯）
+## Pixhack LED status lights \(RGB three-color status lights\)
 
 ---
 
-**红色  蓝色 交替闪烁： **初始化传感器，请将飞控板保持平衡
+**Red blue alternately flashes： **Initialize the sensor, please balance the flight control board
 
-**蓝色  闪烁：**需要GPS锁定，飞控板在需要GPS信号的模式，而GPS还未3D FIX定位成功
+**Blue flashing：**Need GPS lock, the flight control board needs the mode of GPS signal, but GPS has not succeeded in positioning 3D FIX yet
 
-**蓝色 常亮**：已经解锁Armed，但是没有GPS锁定
+**Blue always bright**：Armed has been unlocked, but no GPS lock
 
-**绿色 闪烁：**锁定状态（并满足可以解锁条件）、GPS也3D FIX锁定。
+**Green flashing：**Locked state \(and meet the unlockable condition\), GPS also 3D FIX lock.
 
-**绿色 快速闪烁：**搜索到高精度SBAS的GPS卫星 。飞控锁定状态（并满足可以解锁条件）、GPS也3D FIX。
+**Green flashes quickly：**Searched for high accuracy SBAS GPS satellites. Flight control lock status \(and meet the unlockable conditions\), GPS also 3D FIX.
 
-**绿色常亮---蜂鸣器发出长鸣声：**飞机已经解锁，准备起飞
+** Green always bright --- The buzzer emits a long beep：**The plane is unlocked and ready to take off
 
-**黄色灯 双闪： **解锁失败（检查Pre-Arm报错信息）
+**Yellow light Double flash:** Failed to unlock \(check Pre-Arm error message\)
 
-**单独闪烁黄色**：遥控器失效保护被激活
+**Flashing yellow alone: **Remote controller failure protection is activated
 
-**黄色 蓝色 闪烁： **--高-高-高-低（蜂鸣器响）（dah-dah-dah-doh）：GPS故障或者GPS故障保护激活
+**Yellow Blue Flashing: **- High-High-High-Low \(buzzer\) \(dah-dah-dah-doh\): GPS malfunction or GPS fault protection activation
 
-**红色  黄色 闪烁：**卡尔曼滤波器或者惯性导航失效（错误）
+**Red Yellow Flashing: **Kalman filter or inertial navigation is disabled \(error\)
 
-**紫色 黄色闪烁：** 气压计出错
+**Purple Yellow flashing: **Barometer error
 
-**红色 常亮：** 硬件错误.通常是检测不到TF卡（重插TF卡或者更换）、MTD设备或者IMU传感器，可以查看tf卡根目录BOOT.txt看启动信息分析
+**Red always bright: **Hardware error. Normally no TF card \(reinsert TF card or replacement\), MTD device, or IMU sensor is detected. You can view the boot directory information of BOOT.txt.
 
-**红色 常亮及SOS音调响声：**SD卡丢失或者SD卡格式错误
-**上电后不亮灯**未烧录固件/固件丢失;SD卡丢失或者SD卡格式错误(ac3.4以上固件）
-
+**Red always bright and SOS tone sound: **SD card lost or SD card format error After power-on, no light is turned on. Firmware/firmware is not lost; SD card is lost or SD card format is incorrect \(ac3.4 or higher firmware\)
 
