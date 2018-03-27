@@ -1,10 +1,10 @@
-### 介绍 {#介绍}
+### Introduce {#介绍}
 
 ---
 
-Pixhack是根据Pixhawk硬件架构平台上由CUAV设计，并有CUAV生产的一款32位开源硬件飞控，由于硬件主要架构跟pix完全相同，所以完全兼容3DR APM固件以及pix原生固件。PIXHACK在pix原版基础上优化了供电芯片，删减不必要的AUX6接口，接口做调整优化，改为前后方插线。主要的亮点是IMU分离设计，内置小型通用减震结构，并采用了CNC一体铣成型工艺，抗干扰性还是稳定性都有质的提升。Pixhack经过Cuav长达一年的设计，无数个版本的优化及测试，已经达到了稳定理想的效果。
+Pixhack is based on the Pixhawk hardware architecture platform designed by CUAV, and a 32-bit open source hardware flight control CUAV production, because the hardware main structure is the same with the pix, so it is fully compatible with 3DR APM firmware and Pix native firmware. PIXHACK optimizes the power chip on the basis of Pix original edition, cuts down unnecessary AUX6 interface, the interface makes adjustment and is optimized, change to front and rear insert line. The main highlights are the IMU's separation design, built-in small general-purpose shock absorbing structure, and the use of a CNC integrated milling process. The anti-jamming performance and stability are qualitatively improved. Pixhack has been through Cuav's one-year-long design. Numerous versions of optimization and testing have achieved stable and ideal results.
 
-#### 覆盖全机型 {#覆盖全机型}
+#### Cover all models {#覆盖全机型}
 
 Pixhack V2是一款的无人机控制系统，由CUAV全新打造，可运行 PX4 及 APM 环境。
 
