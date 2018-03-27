@@ -73,31 +73,39 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 ![](/assets/pixhack port.png)
 
+1.Main status light
+
+2.Under State Lights
+
+3.Safe unlock switch
+
+4.DSM remote control signal + ADC6.6 interface
+
+5.GPS+COMPASS interface
+
+6.Digital interface
+
+7.Bus expansion interface
+
+8.DEBUG interface + GPS2 interface
+
+9.POWER IV sensor interface
+
+10.Micro USB interface
+
+11.TF card interface
+
+12.FMU STM32F4 restart button
+
+13.IO STMF100 restart button
 
 
 
+### Interface definition {#接口定义}
 
+---
 
-
-1. 主要状态灯
-2. 底层状态灯
-3. 安全解锁开关
-4. DSM遥控信号+ADC6.6接口
-5. GPS+COMPASS接口
-6. 数传接口
-7. 总线扩展接口
-8. DEBUG接口+GPS2接口
-9. POWER IV传感器接口
-10. micro USB接口
-11. TF卡接口
-12. FMU STM32F4重启按键
-13. IO STMF100 重启按键
-
-    ### 接口定义 {#接口定义}
-
-    ---
-
-    ![](/assets/V33_legend.png)
+![](/assets/V33_legend.png)
 
 
 
