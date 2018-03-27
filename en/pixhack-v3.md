@@ -1,3 +1,6 @@
+
+---
+
 ### Introduce {#介绍}
 
 ---
@@ -12,33 +15,31 @@ The Pixhack V3 is a new drone control system created by CUAV that can run PX4 an
 
 Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
-#### 强大处理器 {#强大处理器}
+#### Powerful processor {#强大处理器}
 
-基于 STM32F427（180MHZ）主控及 STM32F100 协处理器。
+Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
-#### 冗余设计 {#冗余设计}
+#### Redundant design {#冗余设计}
 
-* 内置 3 组 IMU 冗余设计（包括 3 组加速计、3 组陀螺仪、2 组电子罗盘、2 组数字气压计）
+* Built-in 3 IMU Redundant Designs \(includes 3 accelerometers, 3 sets of gyroscopes, 2 sets of electronic compass, 2 sets of digital barometers\)
 
-* 支持 3 组电源供电冗余切换
+* Supports 3 sets of power supply redundant switching
 
-* 软件内建传感器数据融合机制及故障切换机制，将由飞控引起的坠机几率大大降低。
+* The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### 丰富扩展 {#丰富扩展}
+####  Enrich extension {#丰富扩展}
 
-可扩展 1 组电子罗盘、1 路智能电池、2 组 NMEA 或者 UBX 标准 GPS、CAN 总线设备（电调）、2 路 I2C 设备（智能电池、状态灯、光流智能相机、激光传感器、超声波传感器等）
+Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.
 
-#### 内置减震系统 {#内置减震系统}
+#### Built-in shock absorber system {#内置减震系统}
 
-传感器与主板分离设计，内置高性能减震系统,各种严峻机型环境，适应性更强
+Separate design of sensor and main board, built-in high-performance shock absorption system, a variety of severe model environment, better adaptability
 
-![](/assets/imu1.png)
+#### Built-in IMU temperature automatic compensation system {#内置-imu-温度自动补偿系统}
 
-#### 内置 IMU 温度自动补偿系统 {#内置-imu-温度自动补偿系统}
+Pixhack V3 has recently designed a digital temperature control system to keep the sensor in a constant temperature environment for better sensor performance consistency in order to adapt to a more severe low temperature environment.
 
-为了适应更严峻低温的环境，Pixhack V3 最新设计了数字温控系统，让传感器一直保持于一个恒温环境，使传感器性能一致性更好
-
-### 技术规格 {#技术规格}
+### Technical specifications {#技术规格}
 
 ---
 
