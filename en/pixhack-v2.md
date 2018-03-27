@@ -10,7 +10,7 @@ The Pixhack V2 is a drone control system built by CUAV that can run PX4 and APM 
 
 Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
-####  Powerful processor {#强大处理器}
+#### Powerful processor {#强大处理器}
 
 Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
@@ -22,7 +22,7 @@ Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-####  Enrich expansion {#丰富扩展}
+#### Enrich expansion {#丰富扩展}
 
 Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.\)
 
@@ -50,7 +50,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | GPS UART | 2 |
 | DEBUG UART | 1 |
 | Remote signal input protocol | PPM/SBUS/DSM/DSM2 |
-| RSSI  | PWM or 3.3 analog voltage |
+| RSSI | PWM or 3.3 analog voltage |
 | I2C | 2 |
 | CAN Standard bus | 1 |
 | ADC input | 3.3V X1 , 6.6V X1 |
@@ -60,7 +60,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 |  | Fixed-wing / 3-8 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
-| USB voltage  | 5.0 V +- 0.25v |
+| USB voltage | 5.0 V +- 0.25v |
 | Servo voltage | 4.8~5.4V |
 | working temperature | -10 ~ 60°c |
 | Size |  |
@@ -72,6 +72,12 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 ---
 
 ![](/assets/pixhack port.png)
+
+
+
+
+
+
 
 1. 主要状态灯
 2. 底层状态灯
