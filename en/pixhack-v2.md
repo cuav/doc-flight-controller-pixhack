@@ -6,68 +6,68 @@ Pixhack is based on the Pixhawk hardware architecture platform designed by CUAV,
 
 #### Cover all models {#覆盖全机型}
 
-Pixhack V2是一款的无人机控制系统，由CUAV全新打造，可运行 PX4 及 APM 环境。
+The Pixhack V2 is a drone control system built by CUAV that can run PX4 and APM environments.
 
-支持包括：固定翼、多旋翼（3-8 旋翼）、直升机、垂直起降无人机 VTOL、无人车、无人船。
+Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
-#### 强大处理器 {#强大处理器}
+####  Powerful processor {#强大处理器}
 
-基于 STM32F427（180MHZ）主控及 STM32F100 协处理器。
+Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
-#### 冗余设计 {#冗余设计}
+#### Redundant design {#冗余设计}
 
-* 内置 2组 IMU 冗余设计（包括 2 组加速计、2组陀螺仪、1组电子罗盘、1组数字气压计）
+* Built-in 2 IMU redundancy designs \(including 2 accelerometers, 2 gyros, 1 electronic compass, 1 digital barometer\)
 
-* 支持 3 组电源供电冗余切换
+* Supports 3 sets of power supply redundant switching
 
-* 软件内建传感器数据融合机制及故障切换机制，将由飞控引起的坠机几率大大降低。
+* The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### 丰富扩展 {#丰富扩展}
+####  Enrich expansion {#丰富扩展}
 
-可扩展 1 组电子罗盘、2 组 NMEA 或者 UBX 标准 GPS、CAN 总线设备（电调）、2 路 I2C 设备（智能电池、状态灯、光流智能相机、激光传感器、超声波传感器等）
+Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.\)
 
-#### 内置减震系统 {#内置减震系统}
+#### Built-in shock absorber system {#内置减震系统}
 
-传感器与主板分离设计，内置高性能减震系统,各种严峻机型环境，适应性更强
+Separate design of sensor and main board, built-in high-performance shock absorption system, a variety of severe model environment, better adaptability
 
 ![](/assets/imu1.png)
 
-### 技术规格 {#技术规格}
+### Technical specifications {#技术规格}
 
 ---
 
-|  | **硬件参数** |
+|  | Hardware parameters |
 | :--- | :--- |
-| 主处理器Processor | STM32F427 |
-| 协处理器Failsafe co-processor | STM32F100 |
-| **传感器** |  |
-| 加速器Accelerometer 3 | LS303D\MPU6000 |
-| 陀螺仪Gyro 3 | L3GD20\MPU6000 |
-| 电子罗盘Compass 2 | LS303D |
-| 气压计Barometer 2 | MS5611 |
-| **接口** |  |
-| Mavlink UART串口 | 2（带硬件流控） |
-| GPS UART串口 | 2 |
-| DEBUG UART串口 | 1 |
-| 遥控器信号输入协议 | PPM/SBUS/DSM/DSM2 |
-| RSSI输入 | PWM或3.3模拟电压 |
+| Mian Processor | STM32F427 |
+| Failsafe co-processor | STM32F100 |
+| **sensor** |  |
+| Accelerometer 3 | LS303D\MPU6000 |
+| Gyro 3 | L3GD20\MPU6000 |
+| Compass 2 | LS303D |
+| Barometer 2 | MS5611 |
+| I**nterface** |  |
+| Mavlink UART | 2 \(with hardware flow control\) |
+| GPS UART | 2 |
+| DEBUG UART | 1 |
+| Remote signal input protocol | PPM/SBUS/DSM/DSM2 |
+| RSSI  | PWM or 3.3 analog voltage |
 | I2C | 2 |
-| CAN标准总线 | 1 |
-| ADC输入 | 3.3V X1 , 6.6V X1 |
-| PWM输出 | 标准8 PWM IO + 5个可编程IO |
+| CAN Standard bus | 1 |
+| ADC input | 3.3V X1 , 6.6V X1 |
+| PWM output | Standard 8 PWM IO + 5 Programmable IOs |
 |  |  |
-| **支持机型** |  |
-|  | 固定翼/3-8旋翼/直升机/VTOL垂直起降/无人机/无人船 |
-| **工作环境及物理参数** |  |
-| PM工作电压 | 4.5 ~ 5.5 V |
-| USB电压 | 5.0 V +- 0.25v |
-| Servo电压 | 4.8~5.4V |
-| 工作温度 | -10 ~ 60°c |
-| **尺寸** |  |
-| 长X宽X高 | 68\*44\*17 |
-| 重量 | 63g |
+| Support models |  |
+|  | Fixed-wing / 3-8 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
+| Working environment and physical parameters |  |
+| PM working voltage | 4.5 ~ 5.5 V |
+| USB voltage  | 5.0 V +- 0.25v |
+| Servo voltage | 4.8~5.4V |
+| working temperature | -10 ~ 60°c |
+| Size |  |
+| Length x width x height | 68\*44\*17 |
+| Weight | 63g |
 
-### 接口认识 {#接口认识}
+### Interface cognition {#接口认识}
 
 ---
 
