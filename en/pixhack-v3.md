@@ -6,11 +6,11 @@
 
 ![](/assets/pixhackv31.png)
 
-#### 覆盖全机型 {#覆盖全机型}
+#### Cover all models {#覆盖全机型}
 
-Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可运行 PX4 及 APM 环境。
+The Pixhack V3 is a new drone control system created by CUAV that can run PX4 and APM environments.
 
-支持包括：固定翼、多旋翼（3-8 旋翼）、直升机、垂直起降无人机 VTOL、无人车、无人船。
+Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
 #### 强大处理器 {#强大处理器}
 
