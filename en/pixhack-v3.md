@@ -27,7 +27,7 @@ Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-####  Enrich extension {#丰富扩展}
+#### Enrich extension {#丰富扩展}
 
 Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.
 
@@ -43,62 +43,76 @@ Pixhack V3 has recently designed a digital temperature control system to keep th
 
 ---
 
-|  | **硬件参数** |
+|  | Hardware parameters |
 | :--- | :--- |
-| 主处理器Processor | STM32F427 |
-| 协处理器Failsafe co-processor | STM32F100 |
-| **传感器** |  |
-| 加速器Accelerometer 3 | LS303D\MPU6000\MPU9250 |
-| 陀螺仪Gyro 3 | L3GD20\MPU6000\MPU9250 |
-| 电子罗盘Compass 2 | LS303D\MPU9250 |
-| 气压计Barometer 2 | MS5611 X2 |
-| **接口** |  |
-| Mavlink UART串口 | 2（带硬件流控） |
-| GPS UART串口 | 2 |
-| DEBUG UART串口 | 1 |
-| 遥控器信号输入协议 | PPM/SBUS/DSM/DSM2 |
-| RSSI输入 | PWM或3.3模拟电压 |
+| Main Processor | STM32F427 |
+| Failsafe co-processor | STM32F100 |
+| **Sensor** |  |
+| ccelerometer 3 | LS303D\MPU6000\MPU9250 |
+| Gyro 3 | L3GD20\MPU6000\MPU9250 |
+| Compass 2 | LS303D\MPU9250 |
+| Barometer 2 | MS5611 X2 |
+| **Interface** |  |
+| Mavlink UART | 2 \(with hardware flow control\) |
+| GPS UART | 2 |
+| DEBUG UART | 1 |
+| RC bsignal input protocol | PPM/SBUS/DSM/DSM2 |
+| RSSI input | PWM or 3.3 analog voltage |
 | I2C | 2 |
-| CAN标准总线 | 1 |
-| ADC输入 | 3.3V X1 , 6.6V X1 |
-| PWM输出 | 标准8 PWM IO + 5个可编程IO |
+| CAN stander bus  | 1 |
+| ADC input | 3.3V X1 , 6.6V X1 |
+| PWM output | Standard 8 PWM IO + 5 Programmable IOs |
 |  |  |
-| **支持机型** |  |
-|  | 固定翼/3-8旋翼/直升机/VTOL垂直起降/无人机/无人船 |
-| **工作环境及物理参数** |  |
-| PM工作电压 | 4.5 ~ 5.5 V |
-| USB电压 | 5.0 V +- 0.25v |
-| Servo电压 | 4.8~5.4V |
-| 工作温度 | -20 ~ 60°c |
-| **尺寸** |  |
-| 长X宽X高 | 68\*44\*17 |
-| 重量 | 63g |
+| Support models |  |
+|  | Fixed-wing / 3-8 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
+| Working environment and physical parameters |  |
+| PM working voltage | 4.5 ~ 5.5 V |
+| USB voltage | 5.0 V +- 0.25v |
+| Servo voltage | 4.8~5.4V |
+| working temperature | -20 ~ 60°c |
+| Size  |  |
+| Length x width x height | 68\*44\*17 |
+| Wegiht | 63g |
 
-### 接口认识 {#接口认识}
+### Interface cognition {#接口认识}
 
 ---
 
 ![](/assets/pixhack port.png)
 
-1. 主要状态灯
-2. 底层状态灯
-3. 安全解锁开关
-4. DSM遥控信号+ADC6.6接口
-5. GPS+COMPASS接口
-6. 数传接口
-7. 总线扩展接口
-8. DEBUG接口+GPS2接口
-9. POWER IV传感器接口
-10. micro USB接口
-11. TF卡接口
-12. FMU STM32F4重启按键
-13. IO STMF100 重启按键
+1.Main status light
 
-    ### 接口定义 {#接口定义}
+2.Under State Lights
 
-    ---
+3.Safe unlock switch
 
-    ![](/assets/V33_legend.png)
+4.DSM remote control signal + ADC6.6 interface
+
+5.GPS+COMPASS interface
+
+6.Digital interface
+
+7.Bus expansion interface
+
+8.DEBUG interface + GPS2 interface
+
+9.POWER IV sensor interface
+
+10.Micro USB interface
+
+11.TF card interface
+
+12.FMU STM32F4 restart button
+
+13.IO STMF100 restart button
+
+
+
+### Interface definition {#接口定义}
+
+---
+
+![](/assets/V33_legend.png)
 
 
 
