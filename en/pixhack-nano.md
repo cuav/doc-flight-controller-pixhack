@@ -2,7 +2,7 @@
 
 ---
 
-###  Introduce {#介绍}
+### Introduce {#介绍}
 
 PixHack NANO is a new drone control system developed by CUAV for traversers and miniature \(multi-rotor fixed-wing helicopters\) UAVs.
 
@@ -43,7 +43,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | Main Processor Processor | STM32F427 |
 |  |  |
 | Sensor |  |
-| Accelerometer  | MPU9250/ICM-20608 |
+| Accelerometer | MPU9250/ICM-20608 |
 | Gyro | ICM-20608 |
 | Compass | HMC5983 |
 | Barometer | MS5611 |
@@ -62,7 +62,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 |  | Fixed-wing / 3-6 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
-| USB voltage  | 5.0 V +- 0.25v |
+| USB voltage | 5.0 V +- 0.25v |
 | Servo voltage | 4.8~5.4V |
 | working temperature | -20 ~ 60°c |
 | **Size** |  |
@@ -75,17 +75,25 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 ![](http://doc.cuav.net/PixHack/assets/nano2.png)
 
-1：状态LED  
-2: POWER PM模块  
-3: D-BUS 数据扩展接口  
-4：GPS2+DEBUG接口  
-5：radio 数传接口  
-6：GPS+compass接口  
-7：启动LED  
-8：micro USB  
-9：TF内存卡
+1: Status LED
 
-### 接口定义： {#接口定义：}
+2: POWER PM module
+
+3: D-BUS data expansion interface
+
+4: GPS2+DEBUG interface
+
+  5:radio data transmission interface
+
+  6: GPS+ compass interface
+
+7: Start LED
+
+  8: micro USB
+
+9: TF memory card
+
+### Interface definition： {#接口定义：}
 
 ![](/assets/nano3.png)
 
