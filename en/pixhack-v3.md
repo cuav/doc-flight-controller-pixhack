@@ -1,7 +1,7 @@
 
 ---
 
-### Introduce {#介绍}
+### Introduce {#Introduce}
 
 ---
 
@@ -9,17 +9,17 @@
 
 ![](/assets/pixhackv31.png)
 
-#### Cover all models {#覆盖全机型}
+#### Cover all models {#Cover all models}
 
 The Pixhack V3 is a new drone control system created by CUAV that can run PX4 and APM environments.
 
 Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
-#### Powerful processor {#强大处理器}
+#### Powerful processor {#Powerful processor}
 
 Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
-#### Redundant design {#冗余设计}
+#### Redundant design {#Redundant design}
 
 * Built-in 3 IMU Redundant Designs \(includes 3 accelerometers, 3 sets of gyroscopes, 2 sets of electronic compass, 2 sets of digital barometers\)
 
@@ -27,19 +27,19 @@ Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### Enrich extension {#丰富扩展}
+#### Enrich extension {#Enrich extension}
 
 Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.
 
-#### Built-in shock absorber system {#内置减震系统}
+#### Built-in shock absorber system {#Built-in shock absorber system}
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, a variety of severe model environment, better adaptability
 
-#### Built-in IMU temperature automatic compensation system {#内置-imu-温度自动补偿系统}
+#### Built-in IMU temperature automatic compensation system {#Built-in IMU temperature automatic compensation system}
 
 Pixhack V3 has recently designed a digital temperature control system to keep the sensor in a constant temperature environment for better sensor performance consistency in order to adapt to a more severe low temperature environment.
 
-### Technical specifications {#技术规格}
+### Technical specifications {#Technical specifications}
 
 ---
 
@@ -74,7 +74,7 @@ Pixhack V3 has recently designed a digital temperature control system to keep th
 | Length x width x height | 68\*44\*17 |
 | Wegiht | 63g |
 
-### Interface cognition {#接口认识}
+### Interface cognition {#Interface cognition }
 
 ---
 
@@ -108,7 +108,7 @@ Pixhack V3 has recently designed a digital temperature control system to keep th
 
 
 
-### Interface definition {#接口定义}
+### Interface definition {#Interface definition}
 
 ---
 
