@@ -5,7 +5,7 @@
   * [Introduction](pixhack-v3.md#Introduction)
   * [ technical specifications ](pixhack-v3.md# technical specifications )
   * [Interface definition](pixhack-v3.md# Interface definition)
-* [pixhack-nano飞控](pixhack-nano.md)
+* [pixhack-nano flight controller](pixhack-nano.md)
   * [Introduction](pixhack-nano.md# Introduction)
   * [technical specifications](pixhack-nano.md# technical specifications)
   * [Interface definition](pixhack-nano.md#Interface definition)
