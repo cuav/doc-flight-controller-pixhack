@@ -2,11 +2,11 @@
 
 ---
 
-目前 CUAV PixHack 飞控分为 2 个主版本：
+Currently CUAV PixHack flight controllers are divided into 2 major versions：
 
-* **PixHack V2/V3        全新全能型飞控**
+* **PixHack V2/V3       New all-around flight control**
 
-* **PixHack NANO        针对小型无人机开发的飞控**
+* **PixHack NANO        Flight control developed for small drones**
 
 ![](/assets/pixhackv31.png)
 
