@@ -14,7 +14,7 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 
 标准FMU4设备，完全兼容Ardupilot 及PX4代码环境
 
-![](/assets/ee9898419d203e97e53d295a81d68d78.jpg)
+![](/assets/nano.jpg)
 
 #### 强大处理器 {#强大处理器}
 
@@ -73,7 +73,7 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 
 ---
 
-![](http://doc.cuav.net/PixHack/assets/nano2.png)
+![](/assets/nano2.png)
 
 1：状态LED  
 2: POWER PM模块  
