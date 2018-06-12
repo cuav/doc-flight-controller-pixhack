@@ -2,9 +2,9 @@
 
 ---
 
-**Red blue alternately flashes： **Initialize the sensor, please balance the flight control board
+**Red blue alternately flashes： **Initialize the sensor, please balance the Autopilot board
 
-**Blue flashing：**Need GPS lock, the flight control board needs the mode of GPS signal, but GPS has not succeeded in positioning 3D FIX yet
+**Blue flashing：**Need GPS lock, the Autopilot board needs the mode of GPS signal, but GPS has not succeeded in positioning 3D FIX yet
 
 **Blue always bright**：Armed has been unlocked, but no GPS lock
 
