@@ -1,8 +1,8 @@
-# PixHack NANO Flight Control {#pixhack-nano-飞控}
+# PixHack NANO Autopilot {#pixhack-nano-Autopilot}
 
 ---
 
-### Introduce {#介绍}
+### Introduce {#Introduce}
 
 PixHack NANO is a new drone control system developed by CUAV for traversers and miniature \(multi-rotor fixed-wing helicopters\) UAVs.
 
@@ -16,24 +16,24 @@ Standard FMU4 device, fully compatible with Ardupilot and PX4 code environments
 
 ![](/assets/ee9898419d203e97e53d295a81d68d78.jpg)
 
-#### Powerful processor {#强大处理器}
+#### Powerful processor {#Powerful processor }
 
 Based on STM32F427 \(180MHZ\) master
 
-#### Optimized design {#优化设计}
+#### Optimized design {#Optimized design}
 
 * abundant precision sensors \(including accelerometer, gyroscope, electronic compass, digital barometer\)
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### Rich expansion {#丰富扩展}
+#### Rich expansion {#Rich expansion}
 
 Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc. \)
 
-#### Built-in shock absorber system {#内置减震系统}
+#### Built-in shock absorber system {#Built-in shock absorber system }
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
-### Technical specifications: {#技术规格：}
+### Technical specifications: {#Technical specifications：}
 
 ---
 
@@ -68,7 +68,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | Long X Wide X High | 57\*34\*17mm |
 | Weight | 40g |
 
-### Understanding NANO {#认识nano}
+### About NANO {# About NANO}
 
 ---
 
@@ -92,7 +92,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 9: TF memory card
 
-### Interface definition： {#接口定义：}
+### Interface definition： {#Interface definition：}
 
 ![](/assets/nano3.png)
 
