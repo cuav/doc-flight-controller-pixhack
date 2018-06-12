@@ -28,8 +28,7 @@ Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bu
 
 #### Built-in shock absorber system {#内置减震系统}
 
-Separate design of sensor and main board, built-in high-performance shock absorption system, a variety of severe model environment, better adaptability
-
+Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
 ![](/assets/imu1.png)
 
 ### Technical specifications {#技术规格}
