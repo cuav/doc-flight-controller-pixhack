@@ -32,8 +32,7 @@ Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX sta
 
 #### Built-in shock absorber system {#内置减震系统}
 
-Separate design of sensor and main board, built-in high-performance shock absorption system, a variety of severe model environment, better adaptability
-
+Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
 ### Technical specifications: {#技术规格：}
 
 ---
