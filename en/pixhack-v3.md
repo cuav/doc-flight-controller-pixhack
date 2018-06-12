@@ -37,7 +37,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 #### Built-in IMU temperature automatic compensation system {#Built-in IMU temperature automatic compensation system}
 
-Pixhack V3 has recently designed a digital temperature control system to keep the sensor in a constant temperature environment for better sensor performance consistency in order to adapt to a more severe low temperature environment.
+Pixhack V3 recently is designed a digital temperature control system to keep the sensor in a constant temperature environment for better sensor performance consistency in order to adapt to a more severe low temperature environment.
 
 ### Technical specifications {#Technical specifications}
 
@@ -59,7 +59,7 @@ Pixhack V3 has recently designed a digital temperature control system to keep th
 | RC bsignal input protocol | PPM/SBUS/DSM/DSM2 |
 | RSSI input | PWM or 3.3 analog voltage |
 | I2C | 2 |
-| CAN stander bus  | 1 |
+| CAN stander bus | 1 |
 | ADC input | 3.3V X1 , 6.6V X1 |
 | PWM output | Standard 8 PWM IO + 5 Programmable IOs |
 |  |  |
@@ -70,7 +70,7 @@ Pixhack V3 has recently designed a digital temperature control system to keep th
 | USB voltage | 5.0 V +- 0.25v |
 | Servo voltage | 4.8~5.4V |
 | working temperature | -20 ~ 60°c |
-| Size  |  |
+| Size |  |
 | Length x width x height | 68\*44\*17 |
 | Wegiht | 63g |
 
@@ -106,13 +106,9 @@ Pixhack V3 has recently designed a digital temperature control system to keep th
 
 13.IO STMF100 restart button
 
-
-
 ### Interface definition {#Interface definition}
 
 ---
 
 ![](/assets/V33_legend.png)
-
-
 
