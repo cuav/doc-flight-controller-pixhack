@@ -16,7 +16,7 @@ Standard FMU4 device, fully compatible with Ardupilot and PX4 code environments
 
 ![](/assets/ee9898419d203e97e53d295a81d68d78.jpg)
 
-#### Powerful processor {#Powerful processor }
+#### Powerful processor {#强大处理器 }
 
 Based on STM32F427 \(180MHZ\) master
 
