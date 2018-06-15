@@ -9,17 +9,17 @@
 
 ![](/assets/pixhackv31.png)
 
-#### Cover all models {#Cover all models}
+#### Cover all models {#覆盖全机型}
 
 The Pixhack V3 is a new drone control system created by CUAV that can run PX4 and APM environments.
 
 Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
-#### Powerful processor {#Powerful processor}
+#### Powerful processor {#强大处理器r}
 
 Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
-#### Redundant design {#Redundant design}
+#### Redundant design {#冗余设计}
 
 * Built-in 3 IMU Redundant Designs \(includes 3 accelerometers, 3 sets of gyroscopes, 2 sets of electronic compass, 2 sets of digital barometers\)
 
@@ -27,11 +27,11 @@ Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### Enrich extension {#Enrich extension}
+#### Enrich extension {#丰富扩展}
 
 Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.
 
-#### Built-in shock absorber system {#Built-in shock absorber system}
+#### Built-in shock absorber system {#内置减震系统}
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, a variety of severe model environment, better adaptability
 
@@ -74,7 +74,7 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 | Length x width x height | 68\*44\*17 |
 | Wegiht | 63g |
 
-### Interface cognition {#Interface cognition }
+### Interface cognition {#接口认识 }
 
 ---
 
@@ -106,7 +106,7 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 
 13.IO STMF100 restart button
 
-### Interface definition {#Interface definition}
+### Interface definition {#接口定义}
 
 ---
 
