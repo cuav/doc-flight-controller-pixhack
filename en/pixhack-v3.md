@@ -39,7 +39,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 Pixhack V3 recently is designed a digital temperature control system to keep the sensor in a constant temperature environment  in order to adapt to a more severe low temperature environment.
 
-### Technical specifications {#Technical specifications}
+### Technical specifications {#技术规格}
 
 ---
 
