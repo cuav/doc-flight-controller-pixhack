@@ -68,7 +68,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | Long X Wide X High | 57\*34\*17mm |
 | Weight | 40g |
 
-### About NANO {# About NANO}
+### About NANO {# 认识NANO}
 
 ---
 
@@ -92,7 +92,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 9: TF memory card
 
-### Interface definition： {#Interface definition：}
+### Interface definition： {#接口定义}
 
 ![](/assets/nano3.png)
 
