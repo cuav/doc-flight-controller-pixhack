@@ -3,7 +3,7 @@
 * [Autopilot](README.md)
 * [pixhack v3 full-function Autopilo](pixhack-v3.md)
   * [Introduction](pixhack-v3.md#介绍)
-  *[technical specifications](pixhack-v3.md#技术规格)
+  * [technical specifications](pixhack-v3.md#技术规格)
   * [Interface definition](pixhack-v3.md#接口定义)
 * [pixhack-nano Autopilo](pixhack-nano.md)
   * [Introduction](pixhack-nano.md#介绍)
