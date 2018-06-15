@@ -13,7 +13,7 @@
 
 The Pixhack V3 is a new drone control system created by CUAV that can run PX4 and APM environments.
 
-Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
+Support includes: fixed-wing, copter\(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
 #### Powerful processor {#强大处理器r}
 
@@ -64,7 +64,7 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 | PWM output | Standard 8 PWM IO + 5 Programmable IOs |
 |  |  |
 | Support models |  |
-|  | Fixed-wing / 3-8 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
+|  |Plane / copter / helicopter / VTOL / rover etc.|
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
 | USB voltage | 5.0 V +- 0.25v |
