@@ -1,29 +1,29 @@
-### Introduction{#Introduction }
+### Introduction{#介绍 }
 
 ---
 Pixhawk is the world's most famous open source flight control hardware manufacturer 3DR launched open source flight control. Pixhawk as an open source hardware and has powerful features, reliable performance has been favored by the majority of users. The open source of hardware has caused many hardware manufacturers to join the ranks of manufacturing pixhawk. As the well-known open source flight control manufacturer in China, cuav uses the same hardware design and fully imported chips according to the original pixhawk design to produce the cuav. Pixhawk has a very high stability.
 
-#### Cover all models{#Cover all models}
+#### Cover all models{##覆盖全机型}
 The Pixhawk is a drone control system that runs PX4 and APM environments.
 
 Support includes: fixed-wing, multi-rotors (3-8 rotors), helicopters, vertical takeoff and landing UAV VTOL, unmanned vehicles, unmanned boats.
 
-#### Powerful processor {#Powerful processor}
+#### Powerful processor {#强大处理器}
 
 Based on STM32F427 (180MHZ) master and STM32F100 coprocessor.
 
-####Redundant design {#Redundant design }
+####Redundant design {#冗余设计 }
 
 * Built-in two-group IMU redundancy design (including two groups of accelerometers, two groups of gyroscopes, one group of electronic compasses, and one group of digital barometers)
 
 * Support 3 sets of power supply redundant switch
 
 * Software built-in sensor data fusion mechanism and failover mechanism will greatly reduce the chance of crash caused by flight control.
-#### Rich expansion {#Rich expansion}
+#### Rich expansion {丰富扩展}
 
 Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bus device (ESC), 2 I2C devices (smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.)
 
-### Technical specifications {#Technical specifications}
+### Technical specifications {#技术规格}
 
 ---
 
