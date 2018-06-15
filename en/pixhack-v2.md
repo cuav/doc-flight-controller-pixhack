@@ -1,20 +1,20 @@
-### Introduce {#Introduce}
+### Introduce {#介绍}
 
 ---
 
 Pixhack is based on the Pixhawk hardware architecture platform designed by CUAV, and a 32-bit open source hardware flight control CUAV production, because the hardware main structure is the same with the pix, so it is fully compatible with 3DR APM firmware and Pix native firmware. PIXHACK optimizes the power chip on the basis of Pix original edition, cuts down unnecessary AUX6 interface, the interface makes adjustment and is optimized, change to front and rear insert line. The main highlights are the IMU's separation design, built-in small general-purpose shock absorbing structure, and the use of a CNC integrated milling process. The anti-jamming performance and stability are qualitatively improved. Pixhack has been through Cuav's one-year-long design. Numerous versions of optimization and testing have achieved stable and ideal results.
 
-#### Cover all models {#Cover all models}
+#### Cover all models {#覆盖全机型}
 
 The Pixhack V2 is a drone control system built by CUAV that can run PX4 and APM environments.
 
 Support includes: fixed-wing, multi-rotors \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
 
-#### Powerful processor {#Powerful processor }
+#### Powerful processor {#强大处理器}
 
 Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
-#### Redundant design {#Redundant design}
+#### Redundant design {#冗余设计}
 
 * Built-in 2 IMU redundancy designs \(including 2 accelerometers, 2 gyros, 1 electronic compass, 1 digital barometer\)
 
@@ -22,16 +22,16 @@ Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### Enrich expansion {#Enrich expansion }
+#### Enrich expansion {#丰富扩展}
 
 Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.\)
 
-#### Built-in shock absorber system {#Built-in shock absorber system }
+#### Built-in shock absorber system {#内置减震系统 }
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
 ![](/assets/imu1.png)
 
-### Technical specifications {#Technical specifications}
+### Technical specifications {#技术规格}
 
 ---
 
@@ -66,7 +66,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | Length x width x height | 68\*44\*17 |
 | Weight | 63g |
 
-### Interface cognition {#Interface cognition }
+### Interface cognition {#接口认识 }
 
 ---
 
@@ -100,7 +100,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 
 
-### Interface definition {#Interface definition }
+### Interface definition {#接口定义}
 
 ---
 
