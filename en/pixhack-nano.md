@@ -20,20 +20,20 @@ Standard FMU4 device, fully compatible with Ardupilot and PX4 code environments
 
 Based on STM32F427 \(180MHZ\) master
 
-#### Optimized design {#Optimized design}
+#### Optimized design {#优化设计}
 
 * abundant precision sensors \(including accelerometer, gyroscope, electronic compass, digital barometer\)
 
 * The built-in sensor data fusion mechanism and failover mechanism in the software greatly reduce the chance of crashes caused by flight control.
 
-#### Rich expansion {#Rich expansion}
+#### Rich expansion {#丰富扩展}
 
 Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX standard GPS, CAN bus device \(ESC\), 2 I2C devices \(smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc. \)
 
-#### Built-in shock absorber system {#Built-in shock absorber system }
+#### Built-in shock absorber system {#内置减震系统 }
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
-### Technical specifications: {#Technical specifications：}
+### Technical specifications: {#技术规格：}
 
 ---
 
