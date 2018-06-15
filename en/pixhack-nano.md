@@ -2,7 +2,7 @@
 
 ---
 
-### Introduce {#Introduce}
+### Introduce {#介绍}
 
 PixHack NANO is a new drone control system developed by CUAV for traversers and miniature \(multi-rotor fixed-wing helicopters\) UAVs.
 
