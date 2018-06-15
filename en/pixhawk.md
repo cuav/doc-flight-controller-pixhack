@@ -6,7 +6,7 @@ Pixhawk is the world's most famous open source flight control hardware manufactu
 #### Cover all models{#覆盖全机型}
 The Pixhawk is a drone control system that runs PX4 and APM environments.
 
-Support includes: fixed-wing, multi-rotors (3-8 rotors), helicopters, vertical takeoff and landing UAV VTOL, unmanned vehicles, unmanned boats.
+Support includes: fixed-wing, copter(3-8 rotors), helicopters, vertical takeoff and landing UAV VTOL, unmanned vehicles, unmanned boats.
 
 #### Powerful processor {#强大处理器}
 
@@ -48,7 +48,8 @@ Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bu
 | PWM output | Standard 8 PWM IO + 6 Programmable IOs|
 |  |  |
 | **Support models** |  |
-|  | Fixed-wing / 3-8 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
+|  | Plane / copter / helicopter / VTOL / rover etc.
+|
 | **Working environment and physical parameters** |  |
 | PM working voltage | 4.5 ~ 5.5 V |
 | USB voltage | 5.0 V +- 0.25v |
