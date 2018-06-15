@@ -1,4 +1,4 @@
-# PixHack NANO Autopilot {#pixhack-nano-Autopilot}
+# PixHack NANO Autopilot {#pixhack-nano-飞控}
 
 ---
 
