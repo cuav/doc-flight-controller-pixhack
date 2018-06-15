@@ -58,7 +58,8 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | PWM ouput | standard 6 PWM IO |
 |  |  |
 | Support model |  |
-|  | Fixed-wing / 3-6 rotor / helicopter / VTOL Vertical-aiding / drone / pilotless |
+|  | Plane / copter / helicopter / VTOL / rover etc.
+ |
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
 | USB voltage | 5.0 V +- 0.25v |
