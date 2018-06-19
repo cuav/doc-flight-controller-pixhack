@@ -4,15 +4,14 @@
 
 ### Introduce {#介绍}
 
-PixHack NANO is a new drone control system developed by CUAV for traversers and miniature \(multi-rotor fixed-wing helicopters\) UAVs.
+**Pixhack NANO** is a miniature autopilot designed and manufactured by CUAV.
+The board is based on the **FMUv4** open hardware design. It is fully compatible with [PX4](http://px4-travis.s3.amazonaws.com/Firmware/master/px4fmu-v5_default.px4) and [ArduPilot](http://firmware.ardupilot.org) firmware. Mainly used for micro-unmanned aerial vehicles (copter/plane/helicopters).
 
 The shell adopts aerospace aluminum alloy CNC molding process, the size is only 34X57MM, and the high-performance IMU inner damping system is realized in a narrow space.
 
-6 PWM outputs, 2 mavlink devices, 2 GPS positioning systems, I2C device expansion, CAN device expansion, IV voltage current sensor, DEBUG debug interface
+6 PWM outputs, 2 mavlink devices, 2 GPS positioning systems, I2C device expansion, CAN device expansion, IV voltage current sensor,  debug interface
 
-Built-in CM-20608 \(six-axis sensor\)\HMC5983L \(three-axis electronic compass\)\MS5611 \(high-precision digital barometer\) new high performance combination IMU
-
-Standard FMU4 device, fully compatible with Ardupilot and PX4 code environments
+Built-in CM-20608 (six-axis sensor)\HMC5983L (three-axis electronic compass)\MS5611 (high-precision digital barometer) new high performance combination IMU.
 
 ![](/assets/ee9898419d203e97e53d295a81d68d78.jpg)
 
@@ -33,6 +32,7 @@ Scalable 1 set of electronic compass, 1 smart battery, 2 sets of NMEA or UBX sta
 #### Built-in shock absorber system {#内置减震系统 }
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
+
 ### Technical specifications: {#技术规格}
 
 ---
@@ -58,8 +58,8 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | PWM ouput | standard 6 PWM IO |
 |  |  |
 | Support model |  |
-|  | Plane / copter / helicopter / VTOL / rover etc.
- |
+|  | Plane / copter / helicopter / VTOL / rover etc. |
+|  |  |
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
 | USB voltage | 5.0 V +- 0.25v |
@@ -83,13 +83,13 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 4: GPS2+DEBUG interface
 
-  5:radio data transmission interface
+5:radio data transmission interface
 
-  6: GPS+ compass interface
+6: GPS+ compass interface
 
 7: Start LED
 
-  8: micro USB
+8: micro USB
 
 9: TF memory card
 
