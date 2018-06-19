@@ -2,7 +2,7 @@
 
 ---
 
-![](/assets/pixhackv31.png)
+![pixhack v3](../assets/pixhackv31.png)
 
 #### 覆盖全机型 {#覆盖全机型}
 
