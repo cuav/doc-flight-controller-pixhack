@@ -29,7 +29,7 @@ Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bu
 #### Built-in shock absorber system {#内置减震系统 }
 
 Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments  
-![](/assets/imu1.png)
+![pixhack imu](../assets/imu1.png)
 
 ### Technical specifications {#技术规格}
 
@@ -71,7 +71,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 ---
 
-![](/assets/pixhack port.png)
+![pixhck connection](../assets/pixhack port.png)
 
 1.Main status led
 
@@ -103,5 +103,5 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 ---
 
-![](/assets/V33_legend.png)
+![pixhack Interface](../assets/V33_legend.png)
 
