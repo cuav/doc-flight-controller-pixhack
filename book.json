@@ -3,6 +3,7 @@
   "description": "CUAV PixHack 自驾仪 官方说明文档",
   "language": "zh-hans",
   "plugins":[
+   "language-picker",
     "-sharing",
     "-highlight",
     "-livereload",
