@@ -8,7 +8,7 @@
 
 The Pixhack V2 is a drone control system built by CUAV that can run [PX4](http://px4-travis.s3.amazonaws.com/Firmware/master/px4fmu-v5_default.px4) and [ArduPilot](http://firmware.ardupilot.org) environments.
 
-Support includes: plane/copter/helicopters, VTOL, unmanned vehicles, unmanned boats.
+Applicable model: plane/copter/helicopters, VTOL, unmanned vehicles, unmanned boats.
 
 #### Powerful processor {#强大处理器}
 
