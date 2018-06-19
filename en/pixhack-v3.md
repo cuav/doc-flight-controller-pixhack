@@ -4,16 +4,14 @@
 ### Introduce {#介绍}
 
 ---
-
----
-
 ![](/assets/pixhackv31.png)
 
 #### Cover all models {#覆盖全机型}
 
-The Pixhack V3 is a new drone control system created by CUAV that can run PX4 and APM environments.
+Pixhack v3 is an advanced autopilot designed and made in CUAV® .
+The board is is based on the FMUv3 open hardware design. It is fully compatible with [PX4](http://px4-travis.s3.amazonaws.com/Firmware/master/px4fmu-v5_default.px4) and [ArduPilot](http://firmware.ardupilot.org). intended primarily for academic and commercial develop.
 
-Support includes: fixed-wing, copter\(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
+Applicable model: plane\copter\helicopters\VTOL\unmanned vehicles\ unmanned boats.
 
 #### Powerful processor {#强大处理器r}
 
@@ -80,9 +78,9 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 
 ![](/assets/pixhack port.png)
 
-1.Main status light
+1.Main status led
 
-2.Under State Lights
+2.boot led
 
 3.Safe unlock switch
 
