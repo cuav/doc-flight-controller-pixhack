@@ -56,7 +56,7 @@ Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bu
 |Servo voltage | 4.8~5.4V |
 | Operating temperature | -10 ~ 60°c |
 | **Size** |  |
-Long X Wide X High| 68\*44\*17 |
+| Long X Wide X High| 68\*44\*17 |
 | Weight| 63g |
 
 
