@@ -19,7 +19,7 @@ Based on STM32F427 (180MHZ) master and STM32F100 coprocessor.
 * Support 3 sets of power supply redundant switch
 
 * Software built-in sensor data fusion mechanism and failover mechanism will greatly reduce the chance of crash caused by flight control.
-#### Rich expansion {丰富扩展}
+#### Rich expansion {#丰富扩展}
 
 Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bus device (ESC), 2 I2C devices (smart battery, status light, optical flow smart camera, laser sensor, ultrasonic sensor, etc.)
 
