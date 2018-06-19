@@ -1,4 +1,4 @@
-### Introduction{#介绍 }
+### Introduction{#介绍}
 
 ---
 Pixhawk is the world's most famous open source flight control hardware manufacturer 3DR launched open source flight control. Pixhawk as an open source hardware and has powerful features, reliable performance has been favored by the majority of users. The open source of hardware has caused many hardware manufacturers to join the ranks of manufacturing pixhawk. As the well-known open source flight control manufacturer in China, cuav uses the same hardware design and fully imported chips according to the original pixhawk design to produce the cuav. Pixhawk has a very high stability.
