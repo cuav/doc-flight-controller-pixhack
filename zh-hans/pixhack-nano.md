@@ -73,7 +73,7 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 
 ---
 
-![PIXHACK NANO Introduce](/assets/nano2.png)
+![PIXHACK NANO Introduce](../assets/nano2.png)
 
 1：状态LED  
 2: POWER PM模块  
@@ -86,6 +86,6 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 9：TF内存卡
 
 ### 接口定义： {#接口定义：}
-![nano Interface](/assets/nano3.png)
+![nano Interface](../assets/nano3.png)
 
 
