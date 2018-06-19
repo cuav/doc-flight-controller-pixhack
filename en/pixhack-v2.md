@@ -2,13 +2,13 @@
 
 ---
 
-Pixhack is based on the Pixhawk hardware architecture platform designed by CUAV, and a 32-bit open source hardware flight control CUAV production, because the hardware main structure is the same with the pix, so it is fully compatible with 3DR APM firmware and Pix native firmware. PIXHACK optimizes the power chip on the basis of Pix original edition, cuts down unnecessary AUX6 interface, the interface makes adjustment and is optimized, change to front and rear insert line. The main highlights are the IMU's separation design, built-in small general-purpose shock absorbing structure, and the use of a CNC integrated milling process. The anti-jamming performance and stability are qualitatively improved. Pixhack has been through Cuav's one-year-long design. Numerous versions of optimization and testing have achieved stable and ideal results.
+**Pixhack**based on the Pixhawk hardware，The architecture was newly designed by cuav and made by cuav. because the hardware main structure is the same with the pix, so it is fully compatible with [PX4](http://px4-travis.s3.amazonaws.com/Firmware/master/px4fmu-v5_default.px4) and [ArduPilot](http://firmware.ardupilot.org). PIXHACK optimizes the power chip on the basis of Pix original edition, cuts down unnecessary AUX6 interface, the interface makes adjustment and is optimized, change to front and rear insert line. The main highlights are the IMU's separation design, built-in small general-purpose shock absorbing structure, and the use of a CNC integrated milling process. The anti-jamming performance and stability are qualitatively improved. Pixhack has been through Cuav's one-year-long design. Numerous versions of optimization and testing have achieved stable and ideal results.
 
 #### Cover all models {#覆盖全机型}
 
-The Pixhack V2 is a drone control system built by CUAV that can run PX4 and APM environments.
+The Pixhack V2 is a drone control system built by CUAV that can run [PX4](http://px4-travis.s3.amazonaws.com/Firmware/master/px4fmu-v5_default.px4) and [ArduPilot](http://firmware.ardupilot.org) environments.
 
-Support includes: fixed-wing, copter \(3-8 rotors\), helicopters, VTOL drones, unmanned vehicles, unmanned boats.
+Support includes: plane/copter/helicopters, VTOL, unmanned vehicles, unmanned boats.
 
 #### Powerful processor {#强大处理器}
 
@@ -28,7 +28,7 @@ Scalable 1 set of electronic compass, 2 sets of NMEA or UBX standard GPS, CAN bu
 
 #### Built-in shock absorber system {#内置减震系统 }
 
-Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments
+Separate design of sensor and main board, built-in high-performance shock absorption system, Able to adapt to a variety of severe environments  
 ![](/assets/imu1.png)
 
 ### Technical specifications {#技术规格}
@@ -56,8 +56,8 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | PWM output | Standard 8 PWM IO + 5 Programmable IOs |
 |  |  |
 | Support models |  |
-|  |Plane / copter / helicopter / VTOL / rover etc.
-|
+|  | Plane / copter / helicopter / VTOL / rover etc. |
+|  |  |
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
 | USB voltage | 5.0 V +- 0.25v |
@@ -73,11 +73,11 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 ![](/assets/pixhack port.png)
 
-1.Main status light
+1.Main status led
 
-2.Under State Lights
+2.boot led
 
-3.Safe unlock switch
+3.Safe  switch
 
 4.DSM remote control signal + ADC6.6 interface
 
@@ -99,13 +99,9 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 13.IO STMF100 restart button
 
-
-
 ### Interface definition {#接口定义}
 
 ---
 
 ![](/assets/V33_legend.png)
-
-
 
