@@ -13,7 +13,7 @@ The shell adopts aerospace aluminum alloy CNC molding process, the size is only 
 
 Built-in CM-20608 (six-axis sensor)\HMC5983L (three-axis electronic compass)\MS5611 (high-precision digital barometer) new high performance combination IMU.
 
-![](/assets/ee9898419d203e97e53d295a81d68d78.jpg)
+![nano](../assets/ee9898419d203e97e53d295a81d68d78.jpg)
 
 #### Powerful processor {#强大处理器 }
 
@@ -72,8 +72,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 ### About NANO {# 认识NANO}
 
 ---
-
-![](http://doc.cuav.net/PixHack/assets/nano2.png)
+![PIXHACK NANO Introduce](../assets/nano2.png)
 
 1: Status LED
 
@@ -95,5 +94,5 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 
 ### Interface definition： {#接口定义}
 
-![](/assets/nano3.png)
+![nano Interface](../assets/nano3.png)
 
