@@ -91,7 +91,7 @@ Pixhack V2是一款的无人机控制系统，由CUAV全新打造，可运行 PX
 
     ---
 
-    ![](/assets/V33_legend.png)
+    ![pixhack v2 Interface ](../assets/V33_legend.png)
 
 
 
