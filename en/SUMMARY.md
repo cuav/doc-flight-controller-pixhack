@@ -14,7 +14,7 @@
   * [Interface definition](pixhack-v2.md#技术规格)
   * [Interface definition](pixhack-v2.md#接口定义)
 * [PixHawk Autopilot](pixhawk.md)
-  * [Introduction](pixhacwk.md#介绍)
+  * [Introduction](pixhawk.md#介绍)
   * [Technical specifications](pixhawk.md#技术规格)
   * [Interface definition](pixhawk.md#接口定义)
 * [PIXHACK  LED Status light meaning](pixhack-led.md)
