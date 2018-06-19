@@ -2,29 +2,29 @@
 
 ---
 
-**Red blue alternately flashes： **Initialize the sensor, please balance the Autopilot board
+**Red and blue alternately flashing: **Initialize the sensor, please balance the autopilot board
 
-**Blue flashing：**Need GPS lock, the Autopilot board needs the mode of GPS signal, but GPS has not succeeded in positioning 3D FIX yet
+**Blue flashing:** locked state (satisfaction with auto-steady mode unlockable condition), but GPS has not yet succeeded in 3D FIX. If the autopilot mode requires GPS positioning, it will Failed  to arm.
 
-**Blue always bright**：Armed has been unlocked, but no GPS lock
+**Blue is always on:**The Autopilot  have been Arm but no GPS 
 
-**Green flashing：**Locked state \(and meet the unlockable condition\), GPS also 3D FIX lock.
+**Flashing green:** The Autopilot  have been Arm (and meets unlockable conditions), GPS is also 3D FIX locked.
 
-**Green flashes quickly：**Searched for high accuracy SBAS GPS satellites. Flight control lock status \(and meet the unlockable conditions\), GPS also 3D FIX.
+**Fast flashing green: **Search for high-precision SBAS GPS satellites. The Autopilot  the locked state (and satisfies the unlockable condition), GPS is also 3D FIX.
 
-** Green always bright --- The buzzer emits a long beep：**The plane is unlocked and ready to take off
+**Green is always on - The buzzer emits a long beep: **The aircraft is unlocked and ready to take off
 
-**Yellow light Double flash:** Failed to unlock \(check Pre-Arm error message\)
+**Double flashing yellow light:** Unsuccessful arm (check Pre-Arm error message)
 
-**Flashing yellow alone: **Remote controller failure protection is activated
+**Flashing yellow alone:** ​Failsafe activated
 
-**Yellow Blue Flashing: **- High-High-High-Low \(buzzer\) \(dah-dah-dah-doh\): GPS malfunction or GPS fault protection activation
+**Yellow blue flashing: - High - High - High (low buzzer) (dah-dah-dah-doh):** GPS fault or GPS failsafe  activation
 
-**Red Yellow Flashing: **Kalman filter or inertial navigation is disabled \(error\)
+**Red yellow flashing:** disable Kalman filter or inertial navigation (error)
 
-**Purple Yellow flashing: **Barometer error
+**Purple yellow flashing:** barometer  fault 
 
-**Red always bright: **Hardware error. Normally no TF card \(reinsert TF card or replacement\), MTD device, or IMU sensor is detected. You can view the boot directory information of BOOT.txt.
+**Solid red:** Hardware error. Usually no TF card (reinsert TF card or replace), MTD device or IMU sensor is detected. You can view boot directory information for BOOT.txt.
 
-**Red always bright and SOS tone sound: **SD card lost or SD card format error After power-on, no light is turned on. Firmware/firmware is not lost; SD card is lost or SD card format is incorrect \(ac3.4 or higher firmware\)
+**Steady red, SOS sound:** SD card lost or SD card format error After the power is turned on, no lights are on. Firmware/firmware  lost; SD card lost or SD card malformed (ac3.4 or higher firmware)
 
