@@ -4,7 +4,7 @@
 ### Introduce {#介绍}
 
 ---
-![](/assets/pixhackv31.png)
+![pixhack v3](../assets/pixhackv31.png)
 
 #### Cover all models {#覆盖全机型}
 
@@ -108,5 +108,5 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 
 ---
 
-![](/assets/V33_legend.png)
+![pixhack v3 Interface](../assets/V33_legend.png)
 
