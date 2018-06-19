@@ -4,6 +4,7 @@
   "language": "zh-hans",
   "plugins":[
    "language-picker",
+   "richquotes",
     "-sharing",
     "-highlight",
     "-livereload",
