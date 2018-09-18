@@ -19,7 +19,7 @@
 
 * 支持高精密电子罗盘IST8310.
 
-* 升级BootLoader为fmu v3，完美运行完整版APM/PX4固件
+* 升级BootLoader为FMU v3，完美运行完整版APM/PX4固件
 
 ### 覆盖全机型
 
