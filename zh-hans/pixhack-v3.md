@@ -2,8 +2,7 @@
 
 ---
 
-![pixhack v3](../assets/pixhackv31.png)  
-
+![pixhack v3](../assets/pixhackv31.png)
 
 **全新的PIXHACK V3升级版：**
 
@@ -14,7 +13,7 @@
 * CUAV与PX4协同优化，PIXAHCK v3已再次完美兼容PX4原生固件
 * 外置指南针方向智能识别，解决您非正常方向安装的设置烦恼\*
 * 优化对CAN设备的支持。
-
+* 
 更多优化：
 
 * 支持高精密电子罗盘IST8310.
