@@ -45,9 +45,9 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 | 主处理器Processor | STM32F427 |
 | 协处理器Failsafe co-processor | STM32F100 |
 | **传感器** |  |
-| 加速器Accelerometer 3 | LS303D\MPU6000\MPU9250 |
-| 陀螺仪Gyro 3 | L3GD20\MPU6000\MPU9250 |
-| 电子罗盘Compass 2 | LS303D\MPU9250 |
+| 加速器Accelerometer 3 | LS303D/MPU6000/MPU9250 |
+| 陀螺仪Gyro 3 | L3GD20/MPU6000/MPU9250 |
+| 电子罗盘Compass  | LS303D |
 | 气压计Barometer 2 | MS5611 X2 |
 | **接口** |  |
 | Mavlink UART串口 | 2（带硬件流控） |
