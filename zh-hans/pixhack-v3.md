@@ -2,9 +2,25 @@
 
 ---
 
-![pixhack v3](../assets/pixhackv31.png)
+![pixhack v3](../assets/pixhackv31.png)  
 
-#### 覆盖全机型 {#覆盖全机型}
+
+**全新的PIXHACK V3升级版：**
+
+自2018年9月起，CUAV的PIXHACK v3全新升级：
+
+* 优化IMU设计，将所有传感器集成于imu模块，一致性更佳
+* 优化温度补偿系统，减小传感器温漂
+* CUAV与PX4协同优化，PIXAHCK v3已再次完美兼容PX4原生固件
+* 外置指南针方向智能识别，解决您非正常方向安装的设置烦恼\*
+* 优化对CAN设备的支持。
+
+更多优化：
+
+* 支持高精密电子罗盘IST8310.
+* 升级_BootLoader_为fmu v3，完美运行完整版APM/PX4固件
+
+### 覆盖全机型
 
 Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可运行 PX4 及 APM 环境。
 
@@ -47,7 +63,7 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 | **传感器** |  |
 | 加速器Accelerometer 3 | LS303D/MPU6000/MPU9250 |
 | 陀螺仪Gyro 3 | L3GD20/MPU6000/MPU9250 |
-| 电子罗盘Compass  | LS303D |
+| 电子罗盘Compass | LS303D |
 | 气压计Barometer 2 | MS5611 X2 |
 | **接口** |  |
 | Mavlink UART串口 | 2（带硬件流控） |
@@ -95,7 +111,7 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 
     ---
 
- ![pixhack v3 Interface](../assets/V33_legend.png)
+    ![pixhack v3 Interface](../assets/V33_legend.png)
 
 
 
