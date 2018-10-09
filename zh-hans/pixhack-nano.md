@@ -88,4 +88,6 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 ### 接口定义： {#接口定义：}
 ![nano Interface](../assets/nano3.png)
 
+\*CUAV保留产品设计修改的权利，上述介绍可能与产品有细微差异，请以商品介绍界面和CUAV工作人员提供的资料为准。
+
 
