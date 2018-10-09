@@ -43,7 +43,7 @@ PixHack NANO 是由CUAV 针对穿越机及微型（多旋翼 固定翼 直升机
 | 主处理器Processor | STM32F427 |
 |  |  |
 | **传感器** |  |
-| 加速器Accelerometer | MPU9250/ICM-20608 |
+| 加速器Accelerometer |ICM-20608 |
 | 陀螺仪Gyro | ICM-20608 |
 | 电子罗盘Compass | HMC5983 |
 | 气压计Barometer | MS5611 |
