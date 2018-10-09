@@ -42,7 +42,7 @@ Separate design of sensor and main board, built-in high-performance shock absorp
 | Main Processor Processor | STM32F427 |
 |  |  |
 | Sensor |  |
-| Accelerometer | MPU9250/ICM-20608 |
+| Accelerometer | ICM-20608 |
 | Gyro | ICM-20608 |
 | Compass | HMC5983 |
 | Barometer | MS5611 |
