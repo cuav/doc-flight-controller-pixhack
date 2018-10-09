@@ -13,7 +13,7 @@ The shell adopts aerospace aluminum alloy CNC molding process, the size is only 
 
 Built-in CM-20608 (six-axis sensor)\HMC5983L (three-axis electronic compass)\MS5611 (high-precision digital barometer) new high performance combination IMU.
 
-![nano](../assets/ee9898419d203e97e53d295a81d68d78.jpg)
+![nano](../assets/nano.jpg)
 
 #### Powerful processor {#强大处理器 }
 
