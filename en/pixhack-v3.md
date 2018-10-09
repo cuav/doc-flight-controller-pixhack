@@ -17,7 +17,7 @@ Based on STM32F427 \(180MHZ\) master and STM32F100 coprocessor.
 
 #### Redundant design {#冗余设计}
 
-* Built-in 3 IMU Redundant Designs \(includes 3 accelerometers, 3 sets of gyroscopes, 2 sets of electronic compass, 2 sets of digital barometers\)
+* Built-in 3 IMU Redundant Designs \(includes 3 accelerometers, 3 sets of gyroscopes, 1 sets of electronic compass, 2 sets of digital barometers\)
 
 * Supports 3 sets of power supply redundant switching
 
