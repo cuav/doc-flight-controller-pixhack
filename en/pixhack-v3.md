@@ -1,15 +1,15 @@
-
 ### Introduce {#介绍}
 
 ---
+
 ![pixhack v3](../assets/pixhackv31.png)
 
 #### Cover all models {#覆盖全机型}
 
-Pixhack v3 is an advanced autopilot designed and made in CUAV® .
+Pixhack v3 is an advanced autopilot designed and made in CUAV® .  
 The board is is based on the FMUv3 open hardware design. It is fully compatible with [PX4](http://px4-travis.s3.amazonaws.com/Firmware/master/px4fmu-v5_default.px4) and [ArduPilot](http://firmware.ardupilot.org). intended primarily for academic and commercial develop.
 
-Applicable model: plane\copter\helicopters\VTOL\unmanned vehicles\ unmanned boats.
+Applicable model: plane\copter\helicopters\VTOL\unmanned vehicles unmanned boats.
 
 #### Powerful processor {#强大处理器r}
 
@@ -46,7 +46,7 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 | **Sensor** |  |
 | ccelerometer 3 | LS303D\MPU6000\MPU9250 |
 | Gyro 3 | L3GD20\MPU6000\MPU9250 |
-| Compass 2 | LS303D\MPU9250 |
+| Compass 1 | LS303D |
 | Barometer 2 | MS5611 X2 |
 | **Interface** |  |
 | Mavlink UART | 2 \(with hardware flow control\) |
@@ -60,7 +60,7 @@ Pixhack V3 recently is designed a digital temperature control system to keep the
 | PWM output | Standard 8 PWM IO + 5 Programmable IOs |
 |  |  |
 | Support models |  |
-|  |Plane / copter / helicopter / VTOL / rover etc.|
+|  | Plane / copter / helicopter / VTOL / rover etc. |
 | Working environment and physical parameters |  |
 | PM working voltage | 4.5 ~ 5.5 V |
 | USB voltage | 5.0 V +- 0.25v |
