@@ -114,5 +114,5 @@ Pixhack V3 是一款全新的无人机控制系统，由CUAV全新打造，可�
 
     ![pixhack v3 Interface](../assets/V33_legend.png)
 
-
+\*CUAV保留产品设计修改的权利，上述介绍可能与产品有细微差异，请以商品介绍和CUAV工作人员提供的资料为准。
 
