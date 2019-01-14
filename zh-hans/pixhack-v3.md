@@ -4,7 +4,7 @@
 
 ![pixhack v3](../assets/pixhackv31.png)
 
-**全新的PIXHACK V3升级版：**
+**全新的PIXHACK V3升级版：PIXHACK V3X**
 
 自2018年9月起，CUAV的PIXHACK v3全新升级：
 
