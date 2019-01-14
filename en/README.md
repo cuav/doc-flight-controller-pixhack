@@ -8,7 +8,9 @@ Currently CUAV PixHack Autopilot are divided into 2 major versions：
 
 * **PixHack NANO        Flight control developed for small drones**
 
-![pixhack](../assets/pixhackv31.png)
+![pixhack v3](../assets/pixhackv3x.png)
+
+
 
 
 
