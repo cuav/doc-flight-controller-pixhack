@@ -2,7 +2,7 @@
 
 ---
 
-![pixhack v3](../assets/pixhackv31.png)
+![pixhack v3](../assets/pixhackv3x.png)
 
 **全新的PIXHACK V3升级版：PIXHACK V3X**
 
