@@ -2,7 +2,7 @@
 
 ---
 
-![pixhack v3](../assets/pixhackv31.png)
+![pixhack v3](../assets/pixhackv3x.png)
 
 #### Cover all models {#覆盖全机型}
 
