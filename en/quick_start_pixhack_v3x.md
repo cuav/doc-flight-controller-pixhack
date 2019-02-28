@@ -58,4 +58,4 @@ Motors/servos are connected to the **MAIN**(It is identified as S on Pixhack v3)
 ### Pinouts
 
 Pixhack v3 does not use standard Dronecode pins. The pinouts below is shown.
-![Pixhack v3 pinouts](pixhack-v3.md#接口定义) 
+[Pixhack v3 pinouts](pixhack-v3.md#接口定义) 
