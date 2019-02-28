@@ -51,11 +51,6 @@ SD卡最常用于记录和分析航班详细信息。将卡（包含在Pixhack v
 您需要选择兼容的发送器/接收器，然后绑定它们以便它们进行通信（阅读特定发送器/接收器附带的说明）。
 将无线电控制接收器连接到Pixhack V3 rcin引脚.RC支持PPM和SBus。
 
-### Motors
+### 伺服（电机）输出
 
 电机/伺服系统连接到** MAIN **（在Pixhack v3上标识为S）和** AUX **端口.
-
-Pin输出###
-
-Pixhack v3不使用标准的Dronecode引脚。下面显示了引脚分布。
-[Pixhack v3 pinouts]（pixhack-v3.md＃接口定义）
