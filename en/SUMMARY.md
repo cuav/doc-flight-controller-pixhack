@@ -17,6 +17,7 @@
   * [Introduction](pixhawk.md#介绍)
   * [Technical specifications](pixhawk.md#技术规格)
   * [Interface definition](pixhawk.md#接口定义)
+* [Pixhack v3 Wiring Quickstart](quick_start_pixhack_v3x.md)
 * [PIXHACK  LED Status light meaning](pixhack-led.md)
 
 
