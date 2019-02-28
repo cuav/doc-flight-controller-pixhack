@@ -3,24 +3,24 @@
 The quick start guide shows how to power the Pixhack V2/V3 flight controller and connect its most important peripherals.
 
 
-![Pixhack v3x](../../assets/pixhack_v3x.png)
+![Pixhack v3x](../assets/pixhack_v3x.png)
 
 ### Mount and Orient Controller
 
 Pixhack V2/V3/V3X should be mounted on the frame using vibration-damping foam pads (included in the kit). It should be positioned as close to your vehicle’s center of gravity as possible, oriented top-side up with the arrow pointing towards the front of the vehicle.
 
-<img src="../../assets/pixhack_v3_vehicle_front.jpg" align="center"/>
+<img src="../assets/pixhack_v3_vehicle_front.jpg" align="center"/>
 
 > **Note** If the controller cannot be mounted in the
   recommended/default orientation (e.g. due to space constraints) you will
   need to configure the autopilot software with the orientation that you
-  actually used: [Flight Controller Orientation](../config/flight_controller_orientation.md).
+  actually used: [Flight Controller Orientation](https://docs.px4.io/en/advanced_features/rtk-gps.html).
   
 ### Wiring Overview
 
 The image below shows how to connect the most important sensors and peripherals. We'll go through each of these in detail in the following sections.
+![Connect compass/GPS to Pixhack v3](../assets/pixhack_v3_wiring_overview.jpg)
 
-<img src="../../assets/pixhack_v3_wiring_overview.jpg" align="center"/>
 
 ### GPS + Compass
 
