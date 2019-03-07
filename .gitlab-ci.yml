@@ -10,7 +10,7 @@ build-book:
   script: 
     - gitbook build
     
-    # 删除编译的非网站内容
+    # 删除编译的非网站内容  
     - /bin/rm -rf _book/.git*
 
     # 删除网站文件
