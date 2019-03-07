@@ -17,6 +17,6 @@
   * [介绍](pixhacwk.md#介绍)
   * [技术规格](pixhawk.md#技术规格)
   * [接口定义](pixhawk.md#接口定义)
-* [PixHack快速入门](quick_start_pixhack_v3x.md)
+* [PIXHACK快速入门](quick-start-pixhack-v3x.md)
 * [PIXHACK  LED状态灯含义](pixhack-led.md)
 
