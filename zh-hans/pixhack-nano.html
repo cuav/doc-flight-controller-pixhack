@@ -1,0 +1,684 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>PixHack-nano飞控 · pixhack</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-richquotes/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-cuav-doc-chapters/cuav-doc-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-cuav-doc-navbar/cuav-navbar-styles.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-cuav-fontsettings/cuav-fontsettings.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+
+<meta name="renderer" content="webkit">
+
+
+    
+    
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="pixhack-nano.html">
+    
+    
+    <link rel="prev" href="pixhack-v3.html">
+    
+
+
+
+    </head>
+    <body>
+         
+<div class="cuav-navbar">
+  <div class="cuav-navbar-logo">
+    <a href="//doc.cuav.net">
+      <img src="../gitbook/gitbook-plugin-cuav-doc-navbar/images/cuav-logo.png" alt="CUAV logo">
+    </a>
+  </div>
+</div>
+
+
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索">
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    自动驾驶仪
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.2" data-path="pixhack-v3.html">
+            
+                <a href="pixhack-v3.html">
+            
+                    
+                    PixHack v3X全功能飞控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter" data-level="1.2.1" data-path="pixhack-v3.html">
+            
+                <a href="pixhack-v3.html#介绍">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.2.2" data-path="pixhack-v3.html">
+            
+                <a href="pixhack-v3.html#技术规格">
+            
+                    
+                    技术规格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.2.3" data-path="pixhack-v3.html">
+            
+                <a href="pixhack-v3.html#接口定义">
+            
+                    
+                    接口定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="pixhack-nano.html">
+            
+                <a href="pixhack-nano.html">
+            
+                    
+                    PixHack-nano飞控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter" data-level="1.3.1" data-path="pixhack-nano.html">
+            
+                <a href="pixhack-nano.html#介绍">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.3.2" data-path="pixhack-nano.html">
+            
+                <a href="pixhack-nano.html#技术规格">
+            
+                    
+                    技术规格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.3.3" data-path="pixhack-nano.html">
+            
+                <a href="pixhack-nano.html#接口定义">
+            
+                    
+                    接口定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter" data-level="1.4" data-path="pixhack-v2.html">
+            
+                <a href="pixhack-v2.html">
+            
+                    
+                    PixHack-v2全功能飞控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter" data-level="1.4.1" data-path="pixhack-v2.html">
+            
+                <a href="pixhack-v2.html#介绍">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.4.2" data-path="pixhack-v2.html">
+            
+                <a href="pixhack-v2.html#技术规格">
+            
+                    
+                    技术规格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.4.3" data-path="pixhack-v2.html">
+            
+                <a href="pixhack-v2.html#接口定义">
+            
+                    
+                    接口定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter" data-level="1.5" data-path="pixhawk.html">
+            
+                <a href="pixhawk.html">
+            
+                    
+                    PixHawk全功能飞控
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter" data-level="1.5.1" data-path="pixhacwk.md">
+            
+                <span>
+            
+                    
+                    介绍
+            
+                
+            
+
+            
+        </span></li>
+    
+        <li class="chapter" data-level="1.5.2" data-path="pixhawk.html">
+            
+                <a href="pixhawk.html#技术规格">
+            
+                    
+                    技术规格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.5.3" data-path="pixhawk.html">
+            
+                <a href="pixhawk.html#接口定义">
+            
+                    
+                    接口定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter" data-level="1.6" data-path="quick-start-pixhack-v3x.html">
+            
+                <a href="quick-start-pixhack-v3x.html">
+            
+                    
+                    PIXHACK快速入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter" data-level="1.7" data-path="pixhack-led.html">
+            
+                <a href="pixhack-led.html">
+            
+                    
+                    PIXHACK  LED状态灯含义
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".">PixHack-nano飞控</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="pixhack-nano-&#x98DE;&#x63A7;"><a name="pixhack-nano-&#x98DE;&#x63A7;" class="plugin-anchor" href="#pixhack-nano-&#x98DE;&#x63A7;"><i class="fa fa-link" aria-hidden="true"></i></a>PixHack NANO &#x98DE;&#x63A7; </h1>
+<hr>
+<h3 id="&#x4ECB;&#x7ECD;"><a name="&#x4ECB;&#x7ECD;" class="plugin-anchor" href="#&#x4ECB;&#x7ECD;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4ECB;&#x7ECD; </h3>
+<p>PixHack NANO &#x662F;&#x7531;CUAV &#x9488;&#x5BF9;&#x7A7F;&#x8D8A;&#x673A;&#x53CA;&#x5FAE;&#x578B;&#xFF08;&#x591A;&#x65CB;&#x7FFC; &#x56FA;&#x5B9A;&#x7FFC; &#x76F4;&#x5347;&#x673A;&#xFF09;&#x65E0;&#x4EBA;&#x673A; &#x5168;&#x65B0;&#x6253;&#x9020;&#x7684;&#x4E00;&#x6B3E;&#x65E0;&#x4EBA;&#x673A;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;</p>
+<p>&#x5916;&#x58F3;&#x91C7;&#x7528;&#x822A;&#x7A7A;&#x94DD;&#x5408;&#x91D1;&#x4E00;&#x4F53;CNC&#x6210;&#x578B;&#x5DE5;&#x827A;&#xFF0C;&#x5C3A;&#x5BF8;&#x4EC5;&#x6709;34X57MM&#xFF0C;&#x5728;&#x72ED;&#x5C0F;&#x7684;&#x7A7A;&#x95F4;&#x5B9E;&#x73B0;&#x4E86;&#x9AD8;&#x6027;&#x80FD;&#x7684;IMU&#x5185;&#x51CF;&#x9707;&#x7CFB;&#x7EDF;</p>
+<p>&#x62E5;&#x6709;6&#x4E2A;PWM&#x8F93;&#x51FA;&#x3001;&#x652F;&#x6301;2&#x4E2A;mavlink&#x8BBE;&#x5907;&#x3001;2&#x4E2A;GPS&#x5B9A;&#x4F4D;&#x7CFB;&#x7EDF;&#x3001;I2C&#x8BBE;&#x5907;&#x6269;&#x5C55;&#x3001;CAN&#x8BBE;&#x5907;&#x6269;&#x5C55;&#x3001;IV&#x7535;&#x538B;&#x7535;&#x6D41;&#x4F20;&#x611F;&#x5668;&#x3001;DEBUG&#x8C03;&#x8BD5;&#x63A5;&#x53E3;</p>
+<p>&#x5185;&#x5EFA;CM-20608&#xFF08;&#x516D;&#x8F74;&#x4F20;&#x611F;&#x5668;&#xFF09;\HMC5983L&#xFF08;&#x4E09;&#x8F74;&#x7535;&#x5B50;&#x7F57;&#x76D8;&#xFF09;\MS5611(&#x9AD8;&#x7CBE;&#x5EA6;&#x6570;&#x5B57;&#x6C14;&#x538B;&#x8BA1;)&#x5168;&#x65B0;&#x9AD8;&#x6027;&#x80FD;&#x7EC4;&#x5408;IMU</p>
+<p>&#x6807;&#x51C6;FMU4&#x8BBE;&#x5907;&#xFF0C;&#x5B8C;&#x5168;&#x517C;&#x5BB9;Ardupilot &#x53CA;PX4&#x4EE3;&#x7801;&#x73AF;&#x5883;</p>
+<p><img src="../assets/nano.jpg" alt="PIXHACK NANO"></p>
+<h4 id="&#x5F3A;&#x5927;&#x5904;&#x7406;&#x5668;"><a name="&#x5F3A;&#x5927;&#x5904;&#x7406;&#x5668;" class="plugin-anchor" href="#&#x5F3A;&#x5927;&#x5904;&#x7406;&#x5668;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5F3A;&#x5927;&#x5904;&#x7406;&#x5668; </h4>
+<p>&#x57FA;&#x4E8E; STM32F427&#xFF08;180MHZ&#xFF09;&#x4E3B;&#x63A7;</p>
+<h4 id="&#x4F18;&#x5316;&#x8BBE;&#x8BA1;"><a name="&#x4F18;&#x5316;&#x8BBE;&#x8BA1;" class="plugin-anchor" href="#&#x4F18;&#x5316;&#x8BBE;&#x8BA1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F18;&#x5316;&#x8BBE;&#x8BA1; </h4>
+<ul>
+<li><p>&#x4E30;&#x5BCC;&#x7684;&#x9AD8;&#x7CBE;&#x5EA6;&#x4F20;&#x611F;&#x5668;&#xFF08;&#x5305;&#x62EC; &#x52A0;&#x901F;&#x8BA1;&#x3001;&#x9640;&#x87BA;&#x4EEA;&#x3001;&#x7535;&#x5B50;&#x7F57;&#x76D8;&#x3001;&#x6570;&#x5B57;&#x6C14;&#x538B;&#x8BA1;&#xFF09;</p>
+</li>
+<li><p>&#x8F6F;&#x4EF6;&#x5185;&#x5EFA;&#x4F20;&#x611F;&#x5668;&#x6570;&#x636E;&#x878D;&#x5408;&#x673A;&#x5236;&#x53CA;&#x6545;&#x969C;&#x5207;&#x6362;&#x673A;&#x5236;&#xFF0C;&#x5C06;&#x7531;&#x98DE;&#x63A7;&#x5F15;&#x8D77;&#x7684;&#x5760;&#x673A;&#x51E0;&#x7387;&#x5927;&#x5927;&#x964D;&#x4F4E;&#x3002;</p>
+</li>
+</ul>
+<h4 id="&#x4E30;&#x5BCC;&#x6269;&#x5C55;"><a name="&#x4E30;&#x5BCC;&#x6269;&#x5C55;" class="plugin-anchor" href="#&#x4E30;&#x5BCC;&#x6269;&#x5C55;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E30;&#x5BCC;&#x6269;&#x5C55; </h4>
+<p>&#x53EF;&#x6269;&#x5C55; 1 &#x7EC4;&#x7535;&#x5B50;&#x7F57;&#x76D8;&#x3001;1 &#x8DEF;&#x667A;&#x80FD;&#x7535;&#x6C60;&#x3001;2 &#x7EC4; NMEA &#x6216;&#x8005; UBX &#x6807;&#x51C6; GPS&#x3001;CAN &#x603B;&#x7EBF;&#x8BBE;&#x5907;&#xFF08;&#x7535;&#x8C03;&#xFF09;&#x3001;2 &#x8DEF; I2C &#x8BBE;&#x5907;&#xFF08;&#x667A;&#x80FD;&#x7535;&#x6C60;&#x3001;&#x72B6;&#x6001;&#x706F;&#x3001;&#x5149;&#x6D41;&#x667A;&#x80FD;&#x76F8;&#x673A;&#x3001;&#x6FC0;&#x5149;&#x4F20;&#x611F;&#x5668;&#x3001;&#x8D85;&#x58F0;&#x6CE2;&#x4F20;&#x611F;&#x5668;&#x7B49;&#xFF09;</p>
+<h4 id="&#x5185;&#x7F6E;&#x51CF;&#x9707;&#x7CFB;&#x7EDF;"><a name="&#x5185;&#x7F6E;&#x51CF;&#x9707;&#x7CFB;&#x7EDF;" class="plugin-anchor" href="#&#x5185;&#x7F6E;&#x51CF;&#x9707;&#x7CFB;&#x7EDF;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5185;&#x7F6E;&#x51CF;&#x9707;&#x7CFB;&#x7EDF; </h4>
+<p>&#x4F20;&#x611F;&#x5668;&#x4E0E;&#x4E3B;&#x677F;&#x5206;&#x79BB;&#x8BBE;&#x8BA1;&#xFF0C;&#x5185;&#x7F6E;&#x9AD8;&#x6027;&#x80FD;&#x51CF;&#x9707;&#x7CFB;&#x7EDF;,&#x5404;&#x79CD;&#x4E25;&#x5CFB;&#x673A;&#x578B;&#x73AF;&#x5883;&#xFF0C;&#x9002;&#x5E94;&#x6027;&#x66F4;&#x5F3A;</p>
+<h3 id="&#x6280;&#x672F;&#x89C4;&#x683C;&#xFF1A;"><a name="&#x6280;&#x672F;&#x89C4;&#x683C;&#xFF1A;" class="plugin-anchor" href="#&#x6280;&#x672F;&#x89C4;&#x683C;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6280;&#x672F;&#x89C4;&#x683C;&#xFF1A; </h3>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:left"><strong>&#x786C;&#x4EF6;&#x53C2;&#x6570;</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&#x4E3B;&#x5904;&#x7406;&#x5668;Processor</td>
+<td style="text-align:left">STM32F427</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>&#x4F20;&#x611F;&#x5668;</strong></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">&#x52A0;&#x901F;&#x5668;Accelerometer</td>
+<td style="text-align:left">ICM-20608</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x9640;&#x87BA;&#x4EEA;Gyro</td>
+<td style="text-align:left">ICM-20608</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x7535;&#x5B50;&#x7F57;&#x76D8;Compass</td>
+<td style="text-align:left">HMC5983</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x6C14;&#x538B;&#x8BA1;Barometer</td>
+<td style="text-align:left">MS5611</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>&#x63A5;&#x53E3;</strong></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Mavlink UART&#x4E32;&#x53E3;</td>
+<td style="text-align:left">2&#xFF08;&#x5E26;&#x786C;&#x4EF6;&#x6D41;&#x63A7;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:left">GPS UART&#x4E32;&#x53E3;</td>
+<td style="text-align:left">2</td>
+</tr>
+<tr>
+<td style="text-align:left">DEBUG UART&#x4E32;&#x53E3;</td>
+<td style="text-align:left">1</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x9065;&#x63A7;&#x5668;&#x4FE1;&#x53F7;&#x8F93;&#x5165;&#x534F;&#x8BAE;</td>
+<td style="text-align:left">PPM/SBUS/DSM/DSM2</td>
+</tr>
+<tr>
+<td style="text-align:left">RSSI&#x8F93;&#x5165;</td>
+<td style="text-align:left">PWM&#x6216;3.3&#x6A21;&#x62DF;&#x7535;&#x538B;</td>
+</tr>
+<tr>
+<td style="text-align:left">I2C</td>
+<td style="text-align:left">1</td>
+</tr>
+<tr>
+<td style="text-align:left">CAN&#x6807;&#x51C6;&#x603B;&#x7EBF;</td>
+<td style="text-align:left">1</td>
+</tr>
+<tr>
+<td style="text-align:left">ADC&#x8F93;&#x5165;</td>
+<td style="text-align:left">6.6V X1</td>
+</tr>
+<tr>
+<td style="text-align:left">PWM&#x8F93;&#x51FA;</td>
+<td style="text-align:left">&#x6807;&#x51C6;6 PWM IO</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>&#x652F;&#x6301;&#x673A;&#x578B;</strong></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">&#x56FA;&#x5B9A;&#x7FFC;/3-6&#x65CB;&#x7FFC;/&#x76F4;&#x5347;&#x673A;/VTOL&#x5782;&#x76F4;&#x8D77;&#x964D;/&#x65E0;&#x4EBA;&#x673A;/&#x65E0;&#x4EBA;&#x8239;</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>&#x5DE5;&#x4F5C;&#x73AF;&#x5883;&#x53CA;&#x7269;&#x7406;&#x53C2;&#x6570;</strong></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">PM&#x5DE5;&#x4F5C;&#x7535;&#x538B;</td>
+<td style="text-align:left">4.5 ~ 5.5 V</td>
+</tr>
+<tr>
+<td style="text-align:left">USB&#x7535;&#x538B;</td>
+<td style="text-align:left">5.0 V +- 0.25v</td>
+</tr>
+<tr>
+<td style="text-align:left">Servo&#x7535;&#x538B;</td>
+<td style="text-align:left">4.8~5.4V</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x5DE5;&#x4F5C;&#x6E29;&#x5EA6;</td>
+<td style="text-align:left">-20 ~ 60&#xB0;c</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>&#x5C3A;&#x5BF8;</strong></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">&#x957F;X&#x5BBD;X&#x9AD8;</td>
+<td style="text-align:left">57*34*17mm</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x91CD;&#x91CF;</td>
+<td style="text-align:left">40g</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x8BA4;&#x8BC6;nano"><a name="&#x8BA4;&#x8BC6;nano" class="plugin-anchor" href="#&#x8BA4;&#x8BC6;nano"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BA4;&#x8BC6;NANO </h3>
+<hr>
+<p><img src="../assets/nano2.png" alt="PIXHACK NANO Introduce"></p>
+<p>1&#xFF1A;&#x72B6;&#x6001;LED<br>2: POWER PM&#x6A21;&#x5757;<br>3: D-BUS &#x6570;&#x636E;&#x6269;&#x5C55;&#x63A5;&#x53E3;<br>4&#xFF1A;GPS2+DEBUG&#x63A5;&#x53E3;<br>5&#xFF1A;radio &#x6570;&#x4F20;&#x63A5;&#x53E3;<br>6&#xFF1A;GPS+compass&#x63A5;&#x53E3;<br>7&#xFF1A;&#x542F;&#x52A8;LED<br>8&#xFF1A;micro USB<br>9&#xFF1A;TF&#x5185;&#x5B58;&#x5361;</p>
+<h3 id="&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#xFF1A;"><a name="&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#xFF1A;" class="plugin-anchor" href="#&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#xFF1A;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x63A5;&#x53E3;&#x5B9A;&#x4E49;&#xFF1A; </h3>
+<p><img src="../assets/nano3.png" alt="nano Interface"></p>
+<p>*CUAV&#x4FDD;&#x7559;&#x4EA7;&#x54C1;&#x8BBE;&#x8BA1;&#x4FEE;&#x6539;&#x7684;&#x6743;&#x5229;&#xFF0C;&#x4E0A;&#x8FF0;&#x4ECB;&#x7ECD;&#x53EF;&#x80FD;&#x4E0E;&#x4EA7;&#x54C1;&#x6709;&#x7EC6;&#x5FAE;&#x5DEE;&#x5F02;&#xFF0C;&#x8BF7;&#x4EE5;&#x5546;&#x54C1;&#x4ECB;&#x7ECD;&#x754C;&#x9762;&#x548C;CUAV&#x5DE5;&#x4F5C;&#x4EBA;&#x5458;&#x63D0;&#x4F9B;&#x7684;&#x8D44;&#x6599;&#x4E3A;&#x51C6;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class="search-results-count"></span> results matching "<span class="search-query"></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class="search-query"></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="pixhack-v3.html#接口定义" class="navigation navigation-prev" aria-label="Previous page: 接口定义">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="pixhack-nano.html#介绍" class="navigation navigation-next" aria-label="Next page: 介绍">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>var gitbook=gitbook||[];gitbook.push(function(){gitbook.page.hasChanged({page:{title:"PixHack-nano飞控",level:"1.3",depth:1,next:{title:"介绍",level:"1.3.1",depth:2,anchor:"#介绍",path:"pixhack-nano.md",ref:"pixhack-nano.md#介绍",articles:[]},previous:{title:"接口定义",level:"1.2.3",depth:2,anchor:"#接口定义",path:"pixhack-v3.md",ref:"pixhack-v3.md#接口定义",articles:[]},dir:"ltr"},config:{plugins:["youtube","language-picker","anchors","back-to-top-button","page-toc-button","prism","richquotes","search-pro","toolbar","-fontsettings","-highlight","-livereload","-lunr","-search","-sharing","cuav-doc-chapters@git+https://github.com/cuav/gitbook-plugin-cuav-doc-chapters.git","cuav-doc-favicon@git+https://github.com/cuav/gitbook-plugin-cuav-doc-favicon.git","cuav-doc-navbar@git+https://github.com/cuav/gitbook-plugin-cuav-doc-navbar.git","cuav-fontsettings@git+https://github.com/cuav/gitbook-plugin-cuav-fontsettings.git","cuav-minifier@git+https://github.com/cuav/gitbook-plugin-cuav-minifier.git","cuav-renderer@git+https://github.com/cuav/gitbook-plugin-cuav-renderer.git"],styles:{website:"styles/website.css",pdf:"styles/pdf.css",epub:"styles/epub.css",mobi:"styles/mobi.css",ebook:"styles/ebook.css",print:"styles/print.css"},pluginsConfig:{"cuav-doc-chapters":{},prism:{},"language-picker":{"grid-columns":3},youtube:{},"search-pro":{},"cuav-renderer":{},"cuav-doc-navbar":{},"cuav-minifier":{},richquotes:{},"page-toc-button":{},"back-to-top-button":{},"cuav-fontsettings":{},"cuav-doc-favicon":{},toolbar:{buttons:[{label:"Bug tracker",icon:"fa fa-bug",position:"left",url:"https://github.com/cuav/doc-flight-controller-pixhack/issues/new?title=Doc+Bug:+{{title}}&body=DESCRIBE+PROBLEM+WITH+DOCS+HERE%0A%0ABug+Page:+[{{title}}]({{url}})"},{label:"Edit page on github",icon:"fa fa-pencil-square-o",position:"left",url:"https://github.com/cuav/doc-flight-controller-pixhack/edit/master/{{filepath_lang}}"},{label:"GitHub",icon:"fa fa-github",url:"https://github.com/cuav/doc-flight-controller-pixhack"}]},"theme-default":{styles:{website:"styles/website.css",pdf:"styles/pdf.css",epub:"styles/epub.css",mobi:"styles/mobi.css",ebook:"styles/ebook.css",print:"styles/print.css"},showLevel:!1},anchors:{}},theme:"default",pdf:{pageNumbers:!0,fontSize:12,fontFamily:"Arial",paperSize:"a4",chapterMark:"pagebreak",pageBreaksBefore:"/",margin:{right:62,left:62,top:56,bottom:56}},structure:{langs:"LANGS.md",readme:"README.md",glossary:"GLOSSARY.md",summary:"SUMMARY.md"},variables:{},title:"pixhack",language:"zh-hans",gitbook:"*",description:"CUAV PixHack 自驾仪 官方说明文档"},file:{path:"pixhack-nano.md",mtime:"2019-03-15T02:42:42.469Z",type:"markdown"},gitbook:{version:"3.2.3",time:"2019-03-15T02:43:48.080Z"},basePath:".",book:{language:"zh-hans"}})})</script>
+</div>
+
+
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-cuav-doc-chapters/cuav-doc-chapters.js"></script>
+        
+    
+
+    </body>
+</html>
+
